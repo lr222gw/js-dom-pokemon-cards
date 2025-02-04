@@ -38,10 +38,6 @@ for(let d in data)
         }
          
     }
-    for(let i = 0; i < data[d].sprites.versions.length; i++)
-    {
-
-    }
 }
 
 for(let d in data) 
