@@ -1,4 +1,4 @@
-const data = [
+export const data = [
   {
     name: "bulbasaur",
     sprites: {
@@ -8501,4 +8501,4 @@ const data = [
   }
 ];
 
-window.data = data;
+//window.data = data;

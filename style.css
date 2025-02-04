@@ -45,6 +45,8 @@ h2 {
 
   cursor: pointer;
   transition: all 300ms;
+
+  list-style: none;
 }
 
 .card:hover {
@@ -55,7 +57,7 @@ h2 {
 .card--text {
   margin: 0.2rem;
   padding: 1rem;
-
+  list-style: none;
   border-radius: 5px;
 }
 

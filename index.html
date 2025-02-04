@@ -4,8 +4,16 @@
     <title>JS</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
-    <script defer src="/src/data.js"></script>
-    <script defer src="/src/index.js"></script>
+    <!-- To get Autocomplete for JQuery: 
+          You might have to install nodejs, then run  `npm install jquery`
+          - This creates a lot of files into the current working directory, 
+          - Most can be removed from the project, but keep the `package.json`
+          - It should look like this (but prettier): {"dependencies": {"jquery": "^3.7.1"}}
+          -->
+
+    <script defer  src="/src/jquery.js"></script>
+    <script defer type="module" src="/src/data.js"></script>
+    <script defer type="module" src="/src/index.js"></script>
   </head>
   <body>
     <h1>Pokemon Trading Cards</h1>
